@@ -26,6 +26,7 @@ h1 {
 h2 {
  text-align: center;
  width: max-content;
+ text-decoration: underline;
 }
 
 input {
@@ -38,16 +39,11 @@ input {
 
 button {
  padding: 10px 20px;
- background-color: #4CAF50;
  color: white;
  border: none;
  border-radius: 5px;
  cursor: pointer;
  margin-top: 10px;
-}
-
-button:hover {
- background-color: #45a049;
 }
 
 .task {
@@ -63,12 +59,28 @@ button:hover {
 li {
  font-size: 20px;
  font-weight: bold;
- text-decoration: #45a049 underline;
 }
+
+#btnADD{
+    background-color: #45a049;
+}
+
+#btnADD:hover {
+    background-color: #327135;
+   }
 
 #remove {
  background-color: brown;
 }
+
+#concluir {
+    background-color: orange;
+  }
+  
+#concluido {
+    background-color: #4caf50;
+  }
+  
 
 #btns {
  display: flex;
